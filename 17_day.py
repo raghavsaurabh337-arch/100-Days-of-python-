@@ -22,3 +22,6 @@ for num in range(5):
 for num in range(2,500,5):
      print(num+1)
 
+number=int(input("enter the number multiple:"))
+for i in range(1,11):
+     print(number,"x",i,"=",number*i)
