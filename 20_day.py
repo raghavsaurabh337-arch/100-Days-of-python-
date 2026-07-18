@@ -3,9 +3,9 @@ def add(a,b):
      c=a+b
      print(c)
 
-def mean(a,b):
-     means=(1+2)/2
-     print(means) 
+def avg(a,b):
+     me=(1+2)/2
+     print(me) 
 
 def isgreater(a,b):
      if(a>b):
@@ -15,5 +15,5 @@ def isgreater(a,b):
 a=34
 b=20
 add(a,b)
-mean(a,b)
+avg(a,b)
 isgreater(a,b)
