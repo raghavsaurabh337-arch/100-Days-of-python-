@@ -1,0 +1,12 @@
+tupe=("yellow","red","blue",'sky-blue')
+color=list(tupe)
+print(type(color))
+color.append("white")
+print(color)
+co=tuple(color)
+print(co,type(co))
+
+tup=(1,2,4,2,5,3,2,5,2,22433,7,675,32,.5,3,23,5,1,2,3,)
+print(tup.count(2))
+print(len(tup))
+print(tup.index(2))
