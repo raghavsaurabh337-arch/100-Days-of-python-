@@ -30,9 +30,17 @@ def pattren(num):
      for i in range(1,num+1):
           for j in range(i):          
                print("*",end="  ")
+          print() 
+
+
+                   
+def pattrens(num):
+     for i in range(num,1-1):
+          for i in range(j):          
+               print("*",end="  ")
           print()          
 # cal_para(5, 10)
 # cal_area(5, 10)
 # multi(3)
 # marks_greater(25)
-pattren(5)
+pattrens(5)
