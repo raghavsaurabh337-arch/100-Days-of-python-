@@ -13,4 +13,5 @@ a.info()
 
 
 class student():
-     pass 
+     def st(self):
+          pass
